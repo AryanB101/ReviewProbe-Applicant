@@ -1,0 +1,23 @@
+#topcont{
+    height: 25vh;
+    }
+    #BCertificate{
+        background-color: #09419c;
+        color: white;
+        margin-top: 29px;
+        margin-bottom: -2px;
+        margin-left: 12px;
+        border-radius: 26px;
+    }
+    #ref{
+        background-color: #585858;
+    }
+    #birth{
+        margin-left: -16px;
+    }
+    @media(max-width:380px)
+    {
+        #BCertificate{
+            font-size: 12px;
+        }
+    }

@@ -1,0 +1,51 @@
+<div class="container-fluid bg-mycolor text-white d-flex" id="topcont">
+    <h2 class="mx-auto my-auto">Career Details </h2>
+  </div>
+  
+  
+  
+  <div class="container-fluid">
+  <form class="row g-3">
+  <div class="col-12">
+    <label for="objective" class="form-label" id="obj"><strong> Career Objective</strong>
+      <a href=""><i class="fas fa-microphone mx-4" id="mic"></i></a>   </label>
+    <textarea class="form-control" id="objective" rows="2" ></textarea>
+    
+  </div>
+  <!-- col-xs-6 col-sm-12 -->
+  <div class=" my-4" id="video">
+    <strong> Video Pitch</strong>
+    <button type="button" class="btn btn-mycolor me-4 ms-auto" id="submit">Submit</button>
+    <i class="fas fa-play-circle my-auto ms-auto me-4" id="play"></i>
+    
+  <form>
+  <div class="input-group mb-3 my-4">
+      
+    <button class="btn btn-outline-secondary text-white" id="btn1" type="button"><strong> Preferred Industry</strong></button>
+    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+      <option selected>Select...</option>
+      <option *ngFor="let item of industries" [value]="item">
+        {{item}}
+      </option>
+    </select>
+  </div>
+  <div class="input-group mb-3 my-4">
+    
+    <button class="btn btn-outline-secondary text-white" id="btn2" type="button"><strong> Preferred Role</strong></button>
+    <select class="form-select" id="inputGroupSelect003" aria-label="Example select with button addon">
+      <option selected>Select...</option>
+      <option *ngFor="let item2 of roles" [value]="item2">
+        {{item2}}
+      </option>
+    </select>
+  </div>
+  
+  </form>
+  <div class="container-fluid text-center">
+  <button type="button" class="btn btn-mycolor mx-auto my-5 btn-lg" id="submitend" >Submit</button>
+  </div>
+  </div>
+  
+  
+  
+ 

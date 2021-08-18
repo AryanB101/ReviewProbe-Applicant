@@ -1,0 +1,78 @@
+<div class="container-fluid bg-mycolor text-white d-flex" id="topcont">
+    <h2 class="mx-auto my-auto">Additional Details </h2>
+</div>
+
+
+
+<div class="container-fluid my-4">
+    <form class="row g-3">
+        <div class="d-flex">
+            <div class="col-8 col-sm-9" id="birth">
+                <label for="birthdate" class="form-label"><strong>Date of Birth</strong></label>
+                <input type="text" class="form-control" id="birthdate">
+
+            </div>
+
+            <button class="btn btn-outline-secondary" type="button" id="BCertificate">Birth Certificate</button>
+
+        </div>
+        <div class="col-12">
+            <strong>Gender</strong>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input ms-4" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+
+        </div>
+        <div class="col-12">
+            <label for="location" class="form-label"><strong>Preferred Location</strong></label>
+            <input type="text" class="form-control" id="location" placeholder="Enter Location">
+        </div>
+        <div class="col-12">
+            <label for="exampleDataList" class="form-label"><strong> Preferred Language</strong> </label>
+            <input class="form-control" list="datalistOptions"  id="exampleDataList1" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+                <option *ngFor="let item of languages" [value]="item">
+                    {{item}}
+                  </option>
+            </datalist>
+        </div>
+        <div class="col-12">
+            <label for="exampleDataList" class="form-label"><strong>Preferred Interest</strong></label>
+            <input class="form-control" list="datalistOptions2" id="exampleDataList2" placeholder="Type to search...">
+            <datalist id="datalistOptions2">
+                <option *ngFor="let item2 of Interests" [value]="item2">
+                    {{item2}}
+                  </option>
+            </datalist>
+        </div>
+        <strong>Salary Limit</strong>
+        <div class="col-6">
+            <input type="number" class="form-control" id="lowerlimit" placeholder="Enter Lower Limit">
+        </div>
+        <div class="col-6">
+            <input type="number" class="form-control" id="upperlimit" placeholder="Enter Upper Limit">
+        </div>
+        <div class="input-group mb-3 my-4">
+
+            <button class="btn btn-outline-secondary text-white" id="ref"
+                type="button"><strong>Reference</strong></button>
+            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                <option selected>Select...</option>
+                <option *ngFor="let item of References" [value]="item">
+                    {{item}}
+                  </option>
+            </select>
+        </div>
+    </form>
+    <div class="container-fluid text-center">
+        <button type="button" class="btn btn-mycolor mx-auto my-5 btn-lg" id="submitend">Submit</button>
+    </div>
+
+</div>

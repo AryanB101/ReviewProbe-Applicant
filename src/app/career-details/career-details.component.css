@@ -1,0 +1,48 @@
+#topcont{
+    height: 25vh;
+    margin-bottom: 30px;
+    
+    
+}
+#obj{
+    font-size: 18px;
+}
+#objective{
+    border: 2px solid #105dd9;
+    border-radius: 15px;
+}
+#play{
+    font-size: 30px;
+    float: right;
+    margin: auto;
+    padding-top: 4px;
+}
+#submit{
+    border-radius: 12px;
+    float: right;
+    margin: auto;
+}
+#mic{
+    /* filter: invert(1) grayscale(100%) brightness(200%); */
+    /* color: white; */
+    font-size: 20px;
+}
+#submitend{
+    border-radius: 12px;
+    
+}
+#video{
+    font-size: 18px;
+}
+.form-control{
+    border-radius: 12px;
+}
+.form-select{
+    border-radius: 12px;
+}
+#btn1{
+    background: #585858;
+}
+#btn2{
+    background: #585858;
+}

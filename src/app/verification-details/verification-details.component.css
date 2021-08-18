@@ -1,0 +1,50 @@
+#topcont{
+    height: 20vh;
+    margin-bottom: 30px;
+    
+}
+#idproof{
+    width: 60vw;
+    
+}
+
+#maincontent{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    font-weight: 600;
+}
+#donebtn{
+    border-radius: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+#alert{
+    width: 50vw;
+    background: #393e43;
+    /* margin-top: 200px; */
+}
+
+#skip{
+    margin-bottom: 10vh;
+}
+
+.form-control{
+    border-radius: 12px;
+}
+#sure{
+    text-align: center;
+    color: #4e44dd;
+}
+
+@media (max-width:526px)
+{
+    #idproof{
+        width: 85vw;
+    }
+    #alert{
+        width: 75vw;
+    }
+}

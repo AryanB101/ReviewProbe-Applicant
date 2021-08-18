@@ -1,0 +1,25 @@
+#topcont{
+    height: 30vh;
+    
+    
+}
+.form-label{
+    font-weight: 500;
+}
+#donebtn{
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#cross{
+    margin-left: 20px;
+}
+.form-control{
+    border-radius: 12px;
+}
+#button-addon2{
+    color: white;
+    font-size: 19px;
+    background: #706f6f;
+    height: 38px;
+}

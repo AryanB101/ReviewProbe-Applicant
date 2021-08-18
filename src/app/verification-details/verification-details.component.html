@@ -1,0 +1,21 @@
+<div class="container-fluid bg-mycolor text-white d-flex" id="topcont">
+    <h2 class="mx-auto my-auto">Verification Details</h2>
+</div>
+
+<div class="container-fluid d-flex flex-column" id="maincontent">
+    <label for="idproof" class="form-label">Upload your ID proof to verify your identity</label>
+    <input type="text" id="idproof" class="form-control" placeholder="Enter google drive link for your ID proof"
+        aria-describedby="idproofHelpBlock">
+    <div class="form-text" id="sure">
+        Please make sure that the link you share is not 'Restricted'
+    </div>
+    <button type="submit" class="btn btn-mycolor mt-3" id="donebtn">Validate</button>
+</div>
+<div class="alert alert-warning alert-dismissible fade show text-white mx-auto bg-red " id="alert" role="alert">
+    <div class="text">We do not store your documents. We just validate and increase your E-score.</div>
+    <button type="button" class="btn-close btn-close-white ms-5" data-bs-dismiss="alert" aria-label="Close"
+        id="cross"></button>
+</div>
+<div class="container-fluid text-center">
+    <button type="button" class="btn btn-mycolor mx-auto" id="skip">Skip</button>
+</div>
